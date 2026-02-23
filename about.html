@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>About</h1>
+      <p class="tagline">This is the about page for the test website</p>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="features" class="card">
+        <h2>Features</h2>
+        <ul>
+          <li>Responsive layout</li>
+          <li>Clean styling</li>
+          <li>Button with JS interaction</li>
+        </ul>
+        <button id="btn">Click me</button>
+        <p id="msg" class="muted"></p>
+      </section>
+
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p>
+          Edit this text to describe what your site is for. You can add pages later like
+          <code>about.html</code>.
+        </p>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:brandinpotter@gmail.com">brandinpotter@gmail.com</a></p>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <small>© <span id="year"></span> My Website</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
